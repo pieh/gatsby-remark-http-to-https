@@ -1,6 +1,6 @@
 {
   "name": "gatsby-remark-http-to-https",
-  "version": "1.0.1",
+  "version": "1.0.2",
   "description": "Stub description for gatsby-remark-http-to-https",
   "main": "index.js",
   "scripts": {
