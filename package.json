@@ -1,0 +1,14 @@
+{
+  "private": true,
+  "workspaces": [
+    "plugin",
+    "example-remark",
+    "example-mdx"
+  ],
+  "devDependencies": {
+    "jest": "^25.1.0"
+  },
+  "scripts": {
+    "test": "yarn workspaces run build && jest"
+  }
+}
