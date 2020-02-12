@@ -3,7 +3,8 @@
   "workspaces": [
     "plugin",
     "example-remark",
-    "example-mdx"
+    "example-mdx",
+    "dot-org-remark-playground"
   ],
   "devDependencies": {
     "jest": "^25.1.0"
