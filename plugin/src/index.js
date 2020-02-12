@@ -26,8 +26,7 @@ module.exports = ({ markdownAST }) => {
 
     for (let i = 0; i < images.length; i++) {
       const img = images[i];
-
-      if (img.attribs.src.startsWith(`http://`)) {
+      if (img?.attribs?.src?.startsWith(`http://`)) {
         img.attribs.src = img.attribs.src.replace(`http://`, `https://`);
       }
     }
